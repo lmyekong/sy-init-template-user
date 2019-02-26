@@ -1,0 +1,36 @@
+
+// 显示头和尾模块
+export const M_SET_SHOMODE = 'M_SET_SHOMODE'
+
+// 获取图形验证码
+export const A_GET_IMGCODE = 'A_GET_IMGCODE'
+// 发送短信验证码
+export const A_GET_SMSCODE = 'A_GET_SMSCODE'
+// 发送邮箱验证码
+export const A_GET_EMAILCODE = 'A_GET_EMAILCODE'
+
+// 获取角色列表
+export const A_GET_ROLELIST = 'A_GET_ROLELIST'
+export const M_SET_ROLELIST = 'M_SET_ROLELIST'
+
+// 获取行业类型列表
+export const A_GET_INDUSTRY_CATEGORY_LIST = 'A_GET_INDUSTRY_CATEGORY_LIST'
+export const M_SET_INDUSTRY_CATEGORY_LIST = 'M_SET_INDUSTRY_CATEGORY_LIST'
+
+// 查询有效保理商列表
+export const A_GET_AVAIL_FACTOR_LIST = 'A_GET_AVAIL_FACTOR_LIST'
+export const M_SET_AVAIL_FACTOR_LIST = 'M_SET_AVAIL_FACTOR_LIST'
+
+// 公共文件列表接口（有模板）
+export const A_GET_COMMON_FILE_LIST = 'A_GET_COMMON_FILE_LIST'
+export const M_SET_COMMON_FILE_LIST = 'M_SET_COMMON_FILE_LIST'
+export const A_UPLOAD_COMMON_FILE = 'A_UPLOAD_COMMON_FILE'
+export const A_DEL_COMMON_FILE = 'A_DEL_COMMON_FILE'
+
+// 公共文件接口（无模板）
+export const A_GET_COMMON_NOTEMP_FILE_LIST = 'A_GET_COMMON_NOTEMP_FILE_LIST'
+export const M_SET_COMMON_NOTEMP_FILE_LIST = 'M_SET_COMMON_NOTEMP_FILE_LIST'
+export const A_UPLOAD_COMMON_NOTEMP_FILE = 'A_UPLOAD_COMMON_NOTEMP_FILE'
+
+// 获取用户注册状态
+export const A_GET_REGISTER_STATUS = 'A_GET_REGISTER_STATUS'
