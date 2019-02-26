@@ -37,40 +37,7 @@ body {
 	min-height: 100%;
 	padding-bottom: 99px;
 	position: relative;
-	background: url('../img/new-bg.png') no-repeat center;
-	background-size: 100% 100%;
-
-	// background: url('../img/bg.jpg') no-repeat;
-	// background-size: 100% 100%
-	// background-color: #d76816
-	// overflow auto
-	.main {
-		min-height: 600px;
-
-		.content {
-			background-color: #ffffff;
-			margin: 0 auto;
-			width: $page-width;
-
-			.body-el-centent {
-				min-height: 300px;
-				padding: 30px;
-			}
-
-			.body-centent {
-				min-height: 600px;
-				padding: 30px;
-			}
-
-			.edit-table, .info-table {
-				tr > td:first-child, tr > td.label {
-					color: $font-999;
-					text-align: right;
-					width: 150px;
-				}
-			}
-		}
-	}
+	
 }
 
 a {
@@ -211,51 +178,6 @@ a {
 }
 // 位移动样式 
 loopPostion()
-
-// 信息模块
-dl.info-mod {
-	// margin-bottom 20px
-	> dt {
-		position: relative;
-		height: 30px;
-
-		&:after {
-			content: ' ';
-			border-bottom: 2px solid $org2;
-			margin-bottom: -20px;
-			display: block;
-			width: 100%;
-			position: absolute;
-			top: 15px;
-		}
-
-		span {
-			position: absolute;
-			background-color: #ffffff;
-			padding: 7px 10px;
-			left: 5px;
-			display: inline-block;
-			z-index: 5;
-			font-size: 16px;
-		}
-
-		&:before {
-			content: ' ';
-			width: 5px;
-			height: 16px;
-			border-radius: 5px;
-			display: inline-block;
-			background-color: $org2;
-			position: absolute;
-			top: 50%;
-			margin-top: -8px;
-		}
-	}
-
-	> dd {
-		padding: 20px 10px;
-	}
-}
 
 .el-textarea.is-disabled .el-textarea__inner, .el-input.is-disabled .el-input__inner {
 	color: #86898f;

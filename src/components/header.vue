@@ -1,6 +1,6 @@
 <template>
 	<div class="header">
-		header
+		<div class="txtc pd20">头部组件</div>
 	</div>
 </template>
 <script>
@@ -23,6 +23,10 @@ export default {
 
 
 <style lang="stylus" scoped>
+.header {
+    background-color #FA8E3A
+    color #fff
+}
 </style>
 
 

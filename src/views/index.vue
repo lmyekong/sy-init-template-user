@@ -1,6 +1,6 @@
 <template>
-	<div class="index cf txtc">
-		盛业集团前端初始化工程
+	<div class="index">
+		<div class="txtc pd40">盛业集团前端初始化工程</div>
 	</div>
 </template>
 
