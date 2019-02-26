@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="scss">
 body {
 	background: #f8f8f8;
 }

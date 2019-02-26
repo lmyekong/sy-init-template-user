@@ -51,7 +51,7 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="scss" scoped>
 .user-active {
   >>> .el-dialog {
     width: 650px;

@@ -1,18 +1,17 @@
 @import './normalize'; // - 重置样式
 @import './mixin/mixin'; // 公共方法
 @import './mixin/constants'; // 公共变量
-@import './mixin/icon'; // 公共图标
 @import './components'; // 公共组件
 
 .clearfix:after,
 .cf:after {
-  visibility: hidden
-  display: block
+  visibility: hidden;
+  display: block;
   font-size: 0;
-  content: " "
-  clear: both
-  height: 0
-  zoom: 1
+  content: " ";
+  clear: both;
+  height: 0;
+  zoom: 1;
 }
 
 * {
@@ -138,7 +137,7 @@ a {
 		color: #999;
 
 		a {
-			color: @color;
+			color: #999;
 			// font-size: 16px
 		}
 	}
@@ -177,7 +176,7 @@ a {
 	float: right;
 }
 // 位移动样式 
-loopPostion()
+@include loopPostion();
 
 .el-textarea.is-disabled .el-textarea__inner, .el-input.is-disabled .el-input__inner {
 	color: #86898f;

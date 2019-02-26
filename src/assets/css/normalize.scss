@@ -168,7 +168,7 @@ input,
 optgroup,
 select,
 textarea {
-  font: inherit
+  font: inherit;
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   // line-height: 1.15; /* 1 */
@@ -356,5 +356,5 @@ template {
 }
 
 li {
-  list-style none
+  list-style: none;
 }

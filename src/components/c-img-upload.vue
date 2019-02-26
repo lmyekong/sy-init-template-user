@@ -117,12 +117,12 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="scss" scoped>
 
 .upload {
   position: relative;
   display: inline-block;
-  vertical-align top
+  vertical-align: top;
   width: 90px;
   height: 90px;
   margin: 20px 20px 0 0;
@@ -132,15 +132,15 @@ export default {
   // overflow: hidden;
   background-color: #fbfbfb;
   .del {
-    position absolute
-    right -15px
-    top -10px
-    z-index 11 
-    cursor pointer
-    width 30px
-    height @width
-    font-size 18px
-    line-height 20px
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    z-index: 11 ;
+    cursor: pointer;
+    width: 30px;
+    height: $width;
+    font-size: 18px;
+    line-height: 20px;
   }
   input {
     position: absolute;
@@ -150,11 +150,11 @@ export default {
     width: 100%;
     height: 100%;
     opacity: 0;
-    cursor pointer
+    cursor: pointer;
   }
 
   .img-box {
-    height: 100%
+    height: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 100% auto;

@@ -17,7 +17,7 @@ import mixin from '@/common/js/mixins'
 import './assets/css/element-ui/index.css'
 
 // 加载公共样式
-import './assets/css/app.styl'
+import './assets/css/app.scss'
 
 // Vue.use(ElementUI);
 

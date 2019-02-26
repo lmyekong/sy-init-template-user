@@ -1,4 +1,4 @@
-@import './mixin/animation.styl';
+@import './mixin/animation.scss';
 
 // 隐藏IE的输入框眼睛和X
 input::-ms-clear {
@@ -271,7 +271,7 @@ span.vf {
 
 					.icon {
 						width: 16px;
-						height: @width;
+						height: 16px;
 						margin-right: 0;
 					}
 				}
@@ -308,7 +308,7 @@ span.vf {
 .el-loading-spinner {
 	.icon-loading {
 		width: 100px;
-		height: @width;
+		height: 100px;
 		background: url('../img/loading_shape.png') no-repeat center center;
 		background-size: 55px 55px;
 		position: relative;
@@ -319,7 +319,7 @@ span.vf {
 			content: '';
 			// position: absolute
 			width: 100%;
-			height: @width;
+			height: 100%;
 			background: url('../img/loading_logo.png') no-repeat center center;
 			background-size: 53px 53px;
 			display: block;

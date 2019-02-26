@@ -22,10 +22,10 @@ export default {
 </script>
 
 
-<style lang="stylus" scoped>
+<style lang="scss" scoped>
 .header {
-    background-color #FA8E3A
-    color #fff
+    background-color: #FA8E3A;
+    color: #fff;
 }
 </style>
 
