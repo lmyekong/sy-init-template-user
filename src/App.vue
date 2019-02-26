@@ -12,7 +12,7 @@
 
 <script>
 import appFooter from '@/components/footer'
-import appHeader from '@/components/header'
+import appHeader from '@/components/head'
 // import storage from '@/common/js/storage'
 export default {
     name: 'app',
@@ -32,7 +32,7 @@ export default {
         this.loadIconfont()
     },
     updated () {
-        this.setMode()
+        // this.setMode()
     },
     watch: {
         // 如果路由有变化，会再次执行该方法
