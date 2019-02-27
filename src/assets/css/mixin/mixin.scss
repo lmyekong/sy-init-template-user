@@ -5,9 +5,9 @@
  * $base：PS的长度
  */
 $default-width : 750px;
-// @mixin px2rem($size, $base: $default-width) {
-// 	return 0rem + $size * 10 / $base;
-// }
+@function px2rem($size, $base: $default-width) {
+	@return 0rem + ($size * 10 / $base);
+}
 
 // 位移样式
 @mixin loopPostion($i: 0) {

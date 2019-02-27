@@ -22,7 +22,7 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
+<style scoped>
 .header {
     background-color: #FA8E3A;
     color: #fff;
